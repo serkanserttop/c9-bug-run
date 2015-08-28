@@ -1,7 +1,8 @@
 This is a simple example demonstrating a bug with `run.run` call.
 
+Call command: callNodeViaProc -> Works without any problem.
 
-Errors received:
+Call command: callNodeViaRun -> Errors received
 
 		reliable_socket.js:129 TypeError: Cannot read property 'map' of undefined
 				at bashQuote (http://localhost:8181/static/plugins/c9.ide.run/run.js:814:31)
